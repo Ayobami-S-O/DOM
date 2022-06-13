@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="form-box">
+        <h1 class="fw-bold">Register</h1>
+        <form action="" id="nameForm">
+            <label for="name">Name</label><br>
+            <input type="text" id="userName" placeholder="Username" ><br>
+            <label for="age">Age</label><br>
+            <input type="text" id="userAge" placeholder="Age" > <br>
+            <label for="cars">Choose a car</label><br>
+            <select name="cars" id="cars" aria-placeholder="choose a car" required>
+                <option value="volvo"></option>
+                <option value="volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+                <option value="Peugeot">Peugeot</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Isuzu">Isuzu</option>
+                <option value="Micra">Micra</option>
+            </select> <br>
+            <div>
+                <label for="country">Choose your country</label><br>
+                <input type="radio" id="nigeria" name="country" value="Nigeria">
+                <label for="nigeria">Nigeria</label><br>
+                <input type="radio" id="ghana" name="country" value="Ghana">
+                <label for="nigeria">Ghana</label><br>
+                <input type="radio" id="cameroon" name="country" value="Cameroon">
+                <label for="cameroon">Cameroon</label><br>
+                <input type="radio" id="cote'd voire" name="country" value="Cote'd voire">
+                <label for="cote'd voire">Cote'd voire</label><br>
+                <input type="radio" id="benin republic" name="country" value="Benin republic">
+                <label for="benin republic">Benin republic</label><br>
+            </div>
+            <input type="submit" id="submit" placeholder="Click here to submit" value="Click here to submit">
+        </form>
+    </div>
+    
+    <script src="js/bootstrap.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
